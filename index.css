@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 241, 241);
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid black;
+}
+
+#navbar li a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+#navbar li a img{
+    width: 100px;
+    margin-right: 200px;
+}
+
+#download{
+    margin-left: 200px;
+    background-color: rgb(6, 6, 95);
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+#download a{
+    color: white;
+}
