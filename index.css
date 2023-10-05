@@ -6,7 +6,7 @@ body{
 #navbar{
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 241, 241);
+    background-color:  rgb(12, 243, 155);
     margin: 0px;
     padding-top: 30px;
     padding-bottom: 8px;
@@ -25,7 +25,7 @@ body{
 
 #download{
     margin-left: 200px;
-    background-color: rgb(6, 6, 95);
+    background-color: blue;
     padding-top: 8px;
     border-radius: 8px;
 }
@@ -33,3 +33,44 @@ body{
 #download a{
     color: white;
 }
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero div img{
+    width: 550px;
+}
+
+.hero1{
+    font-size: 40px;
+}
+
+.hero2{
+    font-size: 60px;
+}
+
+.hero3{
+    font-size: 30px;
+}
+
+.hero4 span{
+    background-color: rgb(15, 15, 51);
+    border: 2px solid red;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.herodiv1{
+    margin-top: 130px;
+}
+
+.hero{
+    padding-top: 100px;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+}
+
+
+
+
