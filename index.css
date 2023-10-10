@@ -12,6 +12,8 @@ body{
     padding-bottom: 8px;
     border-bottom: 1.5px solid rgb(13, 13, 54);
     background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    position: sticky;
+    top: 0px;
 }
 
 #navbar li a{
@@ -150,4 +152,71 @@ body{
                 margin: auto;
                 
 }
-/* ============================================end section 5================================================= */
+/* ============================================end section 5=============================================== */
+/* ======================================= section 6 ================================================ */
+
+.section6 ul{
+            display: flex;
+            
+            
+}
+
+.section6 ul li{
+                  margin: 40px;
+                  margin-top: 80px;
+                  list-style-type: none;
+                }
+
+/* ============================== end section 6 =================================================== */
+/* =============================== section 7 ================================================= */
+
+.section7{
+display: flex;
+justify-content: center;
+background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+.section7 sec7div1{
+margin: 50px;
+padding-left: 100px;
+}
+
+.section7 sec7div2{
+margin: 50px;
+padding: 100px 150px 50px 50px;
+
+}
+
+.about1{
+display: flex;
+border: 2px solid rgb(32, 48, 119);
+width: 275px;
+position: absolute;
+top: 2280px;
+left: 200px;
+background-color: white;
+}
+
+.about1 .ad1{
+color: orangered;
+font-size: 60px;
+margin: 5px;
+padding: 10px;
+}
+
+.about1 .ad2{
+color: rgb(68, 68, 146);
+font-size: 25px;
+padding: 23px;
+margin-right: 20px;
+}
+
+.sec7div2 span{
+               padding: 20px 40px 20px 40px;
+               background-color: rgb(19, 19, 88); 
+               color: white; 
+               font-size: 17px; 
+}
+/* ====================================== end section 7 ================================================ */
