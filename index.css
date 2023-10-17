@@ -1,288 +1,94 @@
+/* ----------------------------------------- section 1 ---------------------------------------------- */
 body{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
+    background-color: rgb(246, 246, 248);
 }
-     /* =================================section 1=================================================== */
 
 #navbar{
     display: flex;
     justify-content: center;
     margin: 0px;
-    padding-top: 30px;
-    padding-bottom: 8px;
-    border-bottom: 1.5px solid rgb(13, 13, 54);
-    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
-    position: sticky;
-    top: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: rgb(246, 246, 248);
 }
 
 #navbar li a{
     text-decoration: none;
     margin: 20px;
-    font-size: 20px;
-    color: blue;
     
 }
 
 #navbar li a img{
-    width: 100px;
-    margin-right: 200px;
+    margin-right: 180px;
 }
 
-#download{
-    margin-left: 200px;
-    background-color: rgb(12, 12, 51);
-    padding-top: 8px;
+#touch{
+    margin-left: 50px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-bottom: 30px;
 }
 
-#download a{
+#touch a{
     color: white;
 }
+/* ---------------------------------------------- end section 1 --------------------------------------- */
 
-       /* ================================end section 1==================================================== */
+/* ----------------------------------------- section 2 --------------------------------------------- */
 
-       /* =====================================section 2================================================== */
-.hero{
-    display: flex;
-    justify-content: center;
+#div1 div{
+     font-size: 45px;
+     margin-left: 400px; 
+}
+/* ------------------------------------------ end section 2 ------------------------------------------ */
+
+/* ------------------------------------------- section 4 -------------------------------------------- */
+
+span{
+     display: flex;
+     justify-content: center;   
+     width: 160px;
+     height: 30px;
+     margin-left: 575px;
+     margin-top: 40px;
+     background-color: rgb(29, 54, 196);
+     color: white;
+     font-size: 20px;
+     padding-bottom: 7px;
+     padding-top:  7px;
+     padding-left: 9px;
+     border-radius: 50px;
 }
 
-.hero div img{
-    width: 550px;
-}
-
-.hero1{
-    font-size: 40px;
-}
-
-.hero2{
-    font-size: 60px;
-}
-
-.hero3{
-    font-size: 30px;
-}
-
-.hero4 span{
-    background-color: white;
-    border:2px solid blue;
-    color: blue;
-    padding: 10px 25px 10px 25px;
-}
-
-.herodiv1{
-    margin-top: 130px;
-}
-
-.hero{
-    padding-top: 100px;
-    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
-}
-      /* =================================end section 2============================================ */
-
-      /* ===================================section 3============================================== */
-
-.skills{
-         background-color: rgb(41, 41, 124);
-         padding:40px;
-}      
-
-#firsttd{
-         color:white;
-         font-size: 20px;
-         font-weight: 700;
-         padding-left: 300px;
-        }
-        /* ===================================end section 3=============================================== */
-
-        /* =======================================section 4========================================== */
-
-.dedication{
-            display: flex;
-            justify-content: center;
-            padding: 40px;
- }
-
- .dedication div img{
-                     width: 50px;
-}
-
-.dedication div span{
-                     font-size: 30px;
-                     font-weight: 700;
-}
-
-.div1{
-    padding: 40px;
-    border-left: 2px solid gray;
-}
-/* ===========================================end section 4============================================== */
-
-/* ==========================================section 5================================================== */
-
-.section5{
-             margin-left: 240px;
-             display: flex;
-}
-
-.sec5a{
-        color: red;
-        margin-bottom: 10px;
-}
-
-.sec5b{
-         color: rgb(20, 20, 77);
-         font-size: 45px;
-}
-
-.sec5c{
-        color: rgb(71, 71, 129);
-        font-size: 18px;
-        margin-top: 20p;
-}
-
-.Decoration tr td{
-                   border: 3px solid rgb(14, 14, 49);
-                   padding: 10px;
-                   margin: auto;
-}
-
-.Decoration tr{
-                background-color: white;
-                margin: auto;
-                
-}
-/* ============================================end section 5=============================================== */
-/* ======================================= section 6 ================================================ */
-
-.section6 ul{
-            display: flex;
-            
-            
-}
-
-.section6 ul li{
-                  margin: 40px;
-                  margin-top: 80px;
-                  list-style-type: none;
-                }
-
-/* ============================== end section 6 =================================================== */
-/* =============================== section 7 ================================================= */
-
-.section7{
-display: flex;
-justify-content: center;
-background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
-border-top: 1px solid black;
-border-bottom: 1px solid black;
-padding-top: 85px;
-padding-bottom: 85px;
-}
-
-.section7 sec7div1{
-margin: 50px;
-padding-left: 100px;
-}
-
-.section7 sec7div2{
-margin: 50px;
-padding: 100px 150px 50px 50px;
-
-}
-
-.about1{
-display: flex;
-border: 2px solid rgb(32, 48, 119);
-width: 275px;
-position: absolute;
-top: 2280px;
-left: 180px;
+span:hover{
 background-color: white;
+color:rgb(29, 54, 196);
+border: 1px solid rgb(29, 54, 196);
+}
+/* --------------------------------------- end section 4 ------------------------------------------------ */
+
+/* --------------------------------------- section 5 ---------------------------------------------- */
+
+.section5 .sec5div1{
+font-size: 45px;
+color: rgb(16, 44, 168);
+margin-left: 360px;
+margin-top: 150px;
+}
+ 
+.section5 .sec5div2{
+font-size: 20px;
+margin-left: 200px;
+color: rgb(8, 8, 29);
 }
 
-.about1 .ad1{
-color: orangered;
-font-size: 60px;
-margin: 5px;
-padding: 10px;
+.section5 .sec5div3{
+font-size: 20px;
+margin-left: 640px;
+color: rgb(8, 8, 29);
 }
 
-.about1 .ad2{
-color: rgb(68, 68, 146);
-font-size: 25px;
-padding: 23px;
-margin-right: 20px;
-}
-
-.sec7div2 span{
-               padding: 20px 40px 20px 40px;
-               background-color: rgb(19, 19, 88); 
-               color: white; 
-               font-size: 17px; 
-}
-/* ====================================== end section 7 ================================================ */
-
-/* ================================= section 8 ====================================================== */
-
-.section8{
-display: flex;
-justify-content: center;
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-.section8 .sec8div2{
-    margin-top: 43px;
-    margin-left: 80px;
-}
-/* ================================= end section 8 ============================================= */
-
-/* ======================================section 9========================================== */
-
-.section9{
-display: flex;
-justify-content: center;
-}
-
-.section9 div{
-width: 50%;
-border: 2px solid rgb(22, 22, 61);
-margin: 10px;
-overflow: hidden;
-}
-
-.section9 div img{
-width: 100%;
-}
-
-.section9 div img:hover{
-scale: 1.3;
-transition: scale 1s;
-}
-
-/* /==========================================end section 9================================================ */
-
-/* ============================================ section 10 ================================================ */
-
-.section10{
-display: flex;
-justify-content: center;
-}
-
-.section10 div{
-width: 33%;
-border: 2px solid rgb(20, 20, 75);
-margin: 10px;
-overflow: hidden;
-}
-
-.section10 div img{
-width: 100%;
-}
-
-.section10 div img:hover{
-scale: 1.3;
-transition: scale 1s;
-}
-/* ===================================== end section 10 =================================================== */
+/* ----------------------------------------- end section 5 --------------------------------------------- */
