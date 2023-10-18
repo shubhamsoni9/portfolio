@@ -81,33 +81,46 @@ body{
       /* =================================end section 2============================================ */
 
       /* ===================================section 3============================================== */
-
 .section3{
-background-color: rgb(15, 15, 51);
+background-color: rgb(11, 11, 32);
 }
 
-.section3 .sec3div1{
+.sec3div2{
 color: white;
-font-size: 23px;
-text-align: center;
-padding-top: 50px;
+font-size: 25px;
+padding-top: 60px;
 }
 
- #sec3innerdiv{
-display: flex;
-padding-top: 50px;
-padding-bottom: 80px;
-}
+.sec3div1{
+    background-color:  rgb(11, 11, 32);
+    display: flex;
+    justify-content: center;
+    width: 2500px;
+    animation-name: an1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    }
 
- #sec3innerdiv img{
-width: 12.5%;
-}
+    @keyframes an1 {
+        0%{
+        margin-left: 0px;
+        }
+        100%{
+        margin-left: -1200px;
+        }
+    }
 
+    .sec3outdiv{
+        width: 40%;
+        overflow: hidden;
+        padding: 40px;
+        background-color: rgb(11, 11, 32);
+        }
 
+/* ===================================end section 3=============================================== */
 
-        /* ===================================end section 3=============================================== */
-
-        /* =======================================section 4========================================== */
+/* =======================================section 4========================================== */
 
 .dedication{
             display: flex;
